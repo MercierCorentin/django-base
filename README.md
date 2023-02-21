@@ -7,6 +7,9 @@ Lien du tuto: https://openclassrooms.com/fr/courses/7172076-debutez-avec-le-fram
 Avec Docker:
 
 ```bash
+# Construire l'image
+sudo docker compose build
+# Lancer le projet
 sudo docker compose up -d
 ```
 
