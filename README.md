@@ -22,4 +22,12 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
+
+## Gestion de la DB
+
+```bash
+# Création des tables dans la db
+docker compose exec web python manage.py migrate
+# Création d'un super user
+docker compose exec web python manage.py createsuperuser
 ```
